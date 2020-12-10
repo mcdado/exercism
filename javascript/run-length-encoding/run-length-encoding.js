@@ -1,4 +1,4 @@
-export function encode (input) {
+export const encode = (input) => {
   const characters = String(input);
   let repetitions = 0;
   let previousChar = null;
@@ -28,7 +28,7 @@ export function encode (input) {
   return encoding;
 };
 
-export function decode (input) {
+export const decode = (input) => {
   const characters = String(input);
   let repeater = '';
   let decoding = '';
