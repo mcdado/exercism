@@ -18,7 +18,7 @@ const codons = {
   UGA: 'STOP'
 };
 
-export default function(sequence) {
+export default function (sequence) {
   const input = sequence ? String(sequence) : '';
   const seq = input.match(/\D{3}/g);
   const proteins = [];
