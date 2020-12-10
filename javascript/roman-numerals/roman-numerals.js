@@ -1,4 +1,4 @@
-export default function (number) {
+export default function toRoman (number) {
   let value = Number(number);
   let units = 0;
   let fives = 0;
